@@ -15,11 +15,11 @@ import random
 app = Flask(__name__)
 
 # Channel Access Token
-line_bot_api = LineBotApi('nYao7F31TfQDlPrVEiYQz00ECU3ETwavwb7eOcklHbJWVshF6guBwQCaPdT/uX1MY4nhvkfqK4d04Zr+OKZFO94GNZ1UiPBxqsO+l6CsaPl9DEwS5IslimgUEPWSeOxcxI1Oa+Ekk3LXZ0vN27vddAdB04t89/1O/w1cDnyilFU=')
+line_bot_api = LineBotApi('+2izojVo42xI0qEcngmy3CEbEdwfdysKyHDdNxkShWEFwnISXELa7qaZVev3enlz8pkybGwBgZsba+zWSYcasY0icwlv9ottrdblv6XbNXj3Q7uLl53Z0Q5XT5R+MRnw1wr+EnTjAEZBPdoM+nzmuAdB04t89/1O/w1cDnyilFU=')
 #or line_bot_api = 'Channel_token'
 
 # Channel Secret
-handler = WebhookHandler('041b97080b541192476e873d0249c615')
+handler = WebhookHandler('05c75e8423c5d95b16c066dd757b110c')
 #or handler = 'Channel_secret'
 
 # 監聽所有來自 /callback 的 Post Request
