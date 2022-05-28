@@ -45,7 +45,7 @@ def handle_message(event):
     get = event.message.text
 #event.gessage.text接收使用者文字訊息
 
-    if get == "求籤":
+    """if get == "求籤":
         result = random.randint(0,3)
         if result == 0:
             message = TextSendMessage(text = "大吉")
@@ -68,7 +68,7 @@ def handle_message(event):
         )
     
     if get == "hello 你好嗎":    
-        message = TextSendMessage(text = "衷心感謝")
+        message = TextSendMessage(text = "衷心感謝")"""
         
     line_bot_api.reply_message(event.reply_token, message)
 
